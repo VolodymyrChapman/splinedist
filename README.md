@@ -19,8 +19,12 @@ While StarDist models objects with star-convex polygonal representation, SplineD
 ## Example installation instructions
 ### Tested on Ubuntu 20.04. System compiler libraries required (installation of aptitude build-essential and gcc_linux-64 libraries may resolve compilation issues).
 1. Initiate an environment titled splinedist containing python 3.6, tensorflow 2.4.0 and compilers required for build
-   
-       conda create -n splinedist -c conda-forge python=3.6 tensorflow=2.4.0 gcc_linux-64 gxx_linux-64 -y
+
+     conda create -n splinedist -c conda-forge python=3.6 tensorflow=2.4.0 gcc_linux-64 gxx_linux-64 opencv -y
+       
+Additionally, for use of Jupyter notebooks:
+     
+     conda install ipykernel
 
 2. Activate the new environment and install splinedist (from GitHub)
     
