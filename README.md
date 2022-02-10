@@ -16,6 +16,18 @@ While StarDist models objects with star-convex polygonal representation, SplineD
 
 2. [StarDist 0.6.2](https://github.com/mpicbg-csbd/stardist) (can be installed with `pip` : `pip install stardist==0.6.2`)
 
+## Example installation instructions for conda 
+1. Initiate a fresh, python 3.6 environment with tensorflow 2.4.0 named 'splinedist'
+    conda create -n splinedist -c conda-forge python=3.6 tensorflow=2.4.0 -y
+
+2. Activate the new environment and install stardist 0.6.2
+    conda activate splinedist
+    #pip install stardist==0.6.2
+
+3. Clone splinedist (from GitHub) and install
+    git clone https://github.com/uhlmanngroup/splinedist.git
+    cd splinedist
+    pip install .
 
 ## Walkthrough
 
