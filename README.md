@@ -24,7 +24,7 @@ While StarDist models objects with star-convex polygonal representation, SplineD
        
    Additionally, for use of Jupyter notebooks:
      
-        conda install ipykernel
+        conda install ipykernel -y
 
 2. Activate the new environment and install splinedist (from GitHub)
     
