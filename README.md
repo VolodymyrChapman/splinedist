@@ -22,7 +22,7 @@ While StarDist models objects with star-convex polygonal representation, SplineD
 
         conda create -n splinedist -c conda-forge python=3.6 tensorflow=2.4.0 gcc_linux-64 gxx_linux-64 opencv -y
        
-Additionally, for use of Jupyter notebooks:
+   Additionally, for use of Jupyter notebooks:
      
         conda install ipykernel
 
